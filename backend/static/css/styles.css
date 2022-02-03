@@ -1,0 +1,109 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #fafbfd;
+  font-family: OCR A Std, monospace;
+  color: #606c76;
+}
+.header {
+  color: #606c76;
+  margin-top: 10px;
+  text-align: center;
+}
+.message {
+  list-style: none;
+}
+.btn {
+  background-color: teal;
+  
+  border-radius: 5px;
+  color: white;
+  width: 80px;
+  margin: 10px;
+}
+.input {
+  color: #606c76;
+  height: 20px;
+  width: 300px;
+  background-color: #fafbfd;
+  border-radius: 5px;
+  border-color: teal;
+  margin: 10px;
+}
+.formDiv {
+  display: flex;
+  justify-content: center;
+}
+.list {
+  cursor: pointer;
+  list-style-type: '◻';
+  padding-left: 1rem;
+  margin: 10px;
+}
+.marker {
+  cursor: pointer;
+  list-style-type: '✔';
+  padding-left: 1rem;
+}
+.list ::marker {
+  margin: 10px;
+}
+.colorchange {
+  color: teal;
+}
+.ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.delete {
+  /* background-color: tomato;
+  height: 10px;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  text-align: justify; */
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  margin: 6px;
+  padding: 0 4px;
+  line-height: 1.5;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+#taskCard:hover {
+    cursor: pointer;
+}
+
+#todoDelete{
+ background-color: white;
+  color: black;
+  font-size: 12px;
+  margin: 6px;
+  padding: 0 10px;
+  line-height: 1.5;
+  border-color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#todoDone{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  margin: 6px;
+  padding: 0 10px;
+  line-height: 1.5;
+  border-color: black;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.card-body{
+  display: flex;
+  justify-content: space-between;
+
+}
+#taskCard
